@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1585295496 source:c:\users\andre\documents\asn3\src\paper.cpp
+	<algorithm>
+	"Paper.h"
+	"Product.h"
+
+1585348838 c:\users\andre\documents\asn3\include\paper.h
+	<string>
+	<vector>
+	"Product.h"
+
+1585186759 source:c:\users\andre\documents\asn3\main.cpp
+	<iostream>
+	"Paper.h"
+	"Order.h"
+
+1585342671 source:c:\users\andre\documents\asn3\src\order.cpp
+	<iostream>
+	<algorithm>
+	"Order.h"
+
+1585342051 c:\users\andre\documents\asn3\include\order.h
+	"Paper.h"
+
+1585187096 c:\users\andre\documents\asn3\include\product.h
+	<string>
+	<vector>
+
+1585185693 source:c:\users\andre\documents\asn3\src\product.cpp
+	"Product.h"
+
+1585352186 source:c:\users\andre\documents\asn3\src\app\main.cpp
+	<iostream>
+	"Paper.h"
+	"Order.h"
+	"Warehouse.h"
+	"Inventory.h"
+
+1585349343 source:c:\users\andre\documents\asn3\src\warehouse.cpp
+	<iostream>
+	"Warehouse.h"
+	"Order.h"
+
+1585342344 c:\users\andre\documents\asn3\include\warehouse.h
+	<string>
+	<vector>
+	"Order.h"
+
+1585262414 source:c:\users\andre\documents\asn3\src\paperwarehouse.cpp
+	<iostream>
+	"PaperWarehouse.h"
+
+1585272720 c:\users\andre\documents\asn3\include\paperwarehouse.h
+	"Warehouse.h"
+	"Paper.h"
+	"PaperOrder.h"
+
+1585264620 c:\users\andre\documents\asn3\include\paperorder.h
+	"Order.h"
+	"Paper.h"
+
+1585264899 source:c:\users\andre\documents\asn3\src\paperorder.cpp
+	<iostream>
+	"PaperOrder.h"
+
+1585282420 c:\users\andre\documents\asn3\include\orderstates.h
+	"Order.h"
+
+1585291449 c:\users\andre\documents\asn3\include\orderstate.h
+	"Order.h"
+
+1585291447 source:c:\users\andre\documents\asn3\src\orderstate.cpp
+	<iostream>
+	"OrderState.h"
+
+1585292107 source:c:\users\andre\documents\asn3\src\ordersystem.cpp
+	"OrderSystem.h"
+
+1585343232 c:\users\andre\documents\asn3\include\ordersystem.h
+
+1585352159 source:c:\users\andre\documents\asn3\src\inventory.cpp
+	<iostream>
+	"Inventory.h"
+
+1585345733 c:\users\andre\documents\asn3\include\inventory.h
+	"Warehouse.h"
+	"Order.h"
+	"Paper.h"
+
